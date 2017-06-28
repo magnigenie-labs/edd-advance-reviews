@@ -1,0 +1,198 @@
+
+/*-----review box--------*/
+.edd-reviews-btn{
+    border: 1px solid #2d6898;
+    color: #fff;
+    padding: 0px 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5px;
+    background: #555 none repeat scroll 0 0;
+    border-color: #357ebd;
+}
+
+.update-btn{
+    border: 1px solid #2d6898;
+    color: #fff;
+    padding: 0px 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5px;
+    float: right;
+    background-color: #fff; /* Green */
+
+}
+.update-btn:hover {
+    box-shadow: none; 
+}
+.edd-reviews-box{
+    width: 100%;
+    background: #ccc;
+    padding: 10px;
+    border: solid 1px #fff;
+    font-size: 15px;
+}
+.edd-reviews-box:first-line{
+    margin-top: 10px;
+}
+
+
+/*-----popup section--------*/
+
+
+.edd-lable{
+    font-size: 18px;
+    padding-bottom: 10px; 
+    color: #000;
+}
+.edd-imp{
+    color: #f00;
+}
+.edd-field select {
+    background-position:300px;
+    border-radius:5px;
+    background-color: #f8f8f8;
+    font-size:15px;
+    width: 50%;
+    height: 30px;
+
+}
+
+.edd-field textArea{
+    border-radius: 5px;
+    background-color: #f8f8f8;
+    vertical-align: middle;
+    width: 100%;
+    height: 130px;
+    font-size: 15px;
+} 
+
+.edd-header{
+    border-bottom: 1px solid #e5e5e5;
+    padding: 15px;
+    text-align: center;
+}
+.edd-header lable{
+    font-size: 20px;
+    text-align: center;
+    color: #000;
+}
+.edd-footer{
+    border-top: 1px solid #e5e5e5;
+    padding: 10px;
+    text-align: right;
+}
+
+.edd-btn{
+    border: none;
+    color: white;
+    padding: 5px 15px;
+    border-radius: 2px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;  
+}
+
+.save-btn{
+    background-color: #3276B1; /* Green */
+}
+.cancel-btn{
+    background-color: orange;
+}
+.save-btn:hover{
+    background: #E6E6E6;
+    color: #000;
+    cursor: pointer;
+}
+.cancel-btn:hover{
+    background: #E6E6E6;
+    color: #000;
+    cursor: pointer;
+}
+.edd-counter{
+    color: red;
+    display: inline-block;
+}
+#charNum{
+    float: right;
+}
+.edd-section{
+    padding: 10px 15px;
+}
+.edd-section lable{
+    font-size: 20px;
+    font-weight: 100;
+    line-height: 20px;
+    color: #000;
+}
+
+.edd-description{
+    padding-bottom: 10px;   
+}
+.edd-error-msg {
+    color: #D8000C;
+    background-color: #FFBABA;
+    background-image: url('error.png');
+    border-radius: 10px;
+    text-align: center;
+    padding: 5px;
+    display: none;
+}
+.edd-star-display{
+    display:inline-block;
+    vertical-align:middle;
+}
+
+
+
+
+
+/*-----------loader section start here---------*/
+.main-loader{
+    display: none;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 999;
+    background: rgba(102, 102, 102, 0.54);
+}
+.edd-loader {
+    border: 16px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 16px solid #3498DB;
+    border-bottom: 16px solid #3498DB;
+    width: 120px;
+    height: 120px;
+    display: none;
+    left : 40%;
+    position: absolute;
+    top: 40%;
+    width: 120px;
+    z-index: 999999;
+    background-repeat : no-repeat;
+    background-position : center;
+    -webkit-animation: spin 2s linear infinite;
+    animation: spin 2s linear infinite;
+}
+
+@-webkit-keyframes spin {
+    0% { -webkit-transform: rotate(0deg); }
+    100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+
+

@@ -1,0 +1,239 @@
+
+/*-----review box--------*/
+.edd-reviews-btn{
+    background-color: #3276B1; 
+    border: none;
+    color: #fff;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 5px 0;
+    border-radius: 5px;
+}
+.edd-reviews-btn:hover{
+    color: #ccc;
+}
+
+.update-btn{
+    border: 1px solid #2d6898;
+    color: #fff;
+    padding: 0px 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5px;
+    float: right;
+    background-color: #fff; /* Green */
+
+}
+.update-btn:hover {
+    box-shadow: none; 
+}
+.edd-reviews-box{
+    width: 100%;
+    background: #ccc;
+    padding: 10px;
+    border: solid 1px #fff;
+    font-size: 15px;
+    border-radius: 5px;
+}
+.edd-reviews-box:first-line{
+    margin-top: 10px;
+}
+
+
+/*-----popup section--------*/
+
+
+.edd-lable{
+    font-size: 18px;
+    padding-bottom: 10px; 
+    color: #000;
+}
+.edd-imp{
+    color: #f00;
+}
+.edd-field select {
+    width: 50%;
+    padding: 8px 15px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: #f8f8f8;
+    height: auto;
+    cursor: pointer;
+}
+
+.edd-field textArea{
+    border-radius: 5px;
+    background-color: #f8f8f8;
+    vertical-align: middle;
+    width: 100%;
+    height: 130px;
+    font-size: 15px;
+
+} 
+
+.edd-header{
+    border-bottom: 1px solid #e5e5e5;
+    padding: 15px;
+    text-align: center;
+}
+.edd-header lable{
+    font-size: 26px;
+    text-align: center;
+    color: #000;
+    text-transform: none;
+    font-weight: 400;
+
+}
+.edd-footer{
+    border-top: 1px solid #e5e5e5;
+    padding: 25px 10px 10px 10px;
+    text-align: right;
+}
+
+.edd-btn{
+    border: none;
+    color: white;
+    padding: 5px 15px;
+    border-radius: 2px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;  
+    text-transform: none;
+}
+
+.save-btn{
+    background-color: #367FA9; /* Green */
+}
+.cancel-btn{
+    background-color: #E08E0B;
+}
+.cancel-table-btn{
+    background-color: orange; 
+}
+.save-btn:hover{
+    background: #E6E6E6;
+    color: #000;
+    cursor: pointer;
+}
+.cancel-table-btn:hover{
+    background: #E6E6E6;
+    color: #000;
+    cursor: pointer;
+}
+.cancel-btn:hover{
+    background: #E6E6E6;
+    color: #000;
+    cursor: pointer;
+}
+.edd-counter{
+    color: red;
+    display: inline-block;
+}
+#charNum{
+    float: right;
+}
+.edd-section{
+    padding: 10px 15px;
+}
+.edd-section lable{
+    font-size: 20px;
+    font-weight: 100;
+    line-height: 20px;
+    color: #000;
+}
+
+.edd-description{
+    padding-bottom: 10px;   
+}
+.edd-error-msg {
+    color: #D8000C;
+    background-color: #FFBABA;
+    background-image: url('error.png');
+    border-radius: 10px;
+    text-align: center;
+    padding: 5px;
+    display: none;
+}
+.edd-star-display{
+    display:inline-block;
+    vertical-align:middle;
+}
+
+
+
+
+
+/*-----------loader section start here---------*/
+.main-loader{
+    display: none;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 999;
+    background: rgba(102, 102, 102, 0.54);
+}
+.edd-loader {
+    border: 16px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 16px solid #3498DB;
+    border-bottom: 16px solid #3498DB;
+    width: 120px;
+    height: 120px;
+    display: none;
+    left : 40%;
+    position: absolute;
+    top: 40%;
+    width: 120px;
+    z-index: 999999;
+    background-repeat : no-repeat;
+    background-position : center;
+    -webkit-animation: spin 2s linear infinite;
+    animation: spin 2s linear infinite;
+}
+
+@-webkit-keyframes spin {
+    0% { -webkit-transform: rotate(0deg); }
+    100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+
+
+/*-------------------------------- made by Sushant-----------------------------------------------------*/
+
+.mfp-content{
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+@media screen and (min-width: 769px) {
+    .mfp-content{
+        width: 50%
+    }
+}
+
+@media screen and (min-device-width: 481px) and (max-device-width: 768px) { 
+    .mfp-content{
+        width: 60%
+    }
+}
+
+@media only screen and (max-device-width: 480px) {
+    .mfp-content{
+        width: 90%
+    }
+}
