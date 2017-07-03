@@ -525,7 +525,7 @@ class eddAr {
             ),
             'review_update_access' => array(
                 'id' => 'review_update_access',
-                'name' => __('Update Review Acess', 'edd-advance-reviews'),
+                'name' => __('Update Review Access', 'edd-advance-reviews'),
                 'desc' => __('Give update access for reviews to customer', 'edd-advance-reviews'),
                 'type' => 'checkbox',
             ),
@@ -561,7 +561,7 @@ class eddAr {
             'modal_bg_color' => array(
                 'id' => 'modal_bg_color',
                 'name' => __('Modal background color', 'edd-advance-reviews'),
-                'desc' => __('Choose the color you want to use for the bacakground of modal box.', 'edd-advance-reviews'),
+                'desc' => __('Choose the color you want to use for the background of modal box.', 'edd-advance-reviews'),
                 'type' => 'color',
             ),
             'modal_txt_color' => array(
